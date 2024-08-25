@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer{
+    .container{
+        @apply px-[30px] mx-auto
+    }
+    
+    .content{
+        @apply pt-[150px] md:pt-[100px]
+    }
+}
+body{
+    background: #0c1524b6;
+}
+
